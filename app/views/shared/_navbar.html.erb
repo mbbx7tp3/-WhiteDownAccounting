@@ -1,6 +1,8 @@
 <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
     <div class="left">
-      <%= link_to image_tag("Company.png") %>
+      <%= link_to "/", class: "navbar-brand" do %>
+      <%= image_tag("Company.png") %>
+      <% end %>
     </div>
     <div class="right">
       <%= link_to "Our Services", "/services"%>
