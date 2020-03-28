@@ -18,3 +18,11 @@ text-align: center;
   padding: 2%;
   margin-top: 2%
 }
+
+.container {
+margin-top: 2%;
+margin-bottom: 2%;
+display: grid;
+grid-gap: 1%;
+grid-template-columns: 1fr 1fr 1fr
+}
