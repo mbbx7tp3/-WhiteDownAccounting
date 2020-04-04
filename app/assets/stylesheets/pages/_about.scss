@@ -1,0 +1,19 @@
+.half-left {
+  padding: 2%;
+}
+
+.half-left img {
+  width: 400px;
+  height: 480px;
+  border-radius: 4%;
+}
+
+.half-right {
+  margin-top: 100px;
+}
+
+.about {
+display: grid;
+grid-template-columns: 1fr 1fr;
+margin-top: 5%;
+}
