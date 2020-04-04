@@ -5,7 +5,7 @@
 .half-left img {
   width: 400px;
   height: 480px;
-  border-radius: 4%;
+  border-radius: 2%;
 }
 
 .half-right {
@@ -16,4 +16,9 @@
 display: grid;
 grid-template-columns: 1fr 1fr;
 margin-top: 5%;
+}
+
+.about-title h2 {
+font-family: "Courier New";
+text-align: center;
 }
