@@ -7,6 +7,7 @@
 
 .box h1 {
 text-align: center;
+font-family: "Courier New";
 }
 
 .box p {
@@ -30,6 +31,11 @@ grid-template-columns: 1fr 1fr 1fr
 }
 
 a {
-  color: black;
-  padding-left: 1px;
+  color: white;
+}
+
+.new {
+  border-radius: 25px;
+  background-color:   #3399FF;
+  font-weight: bold;
 }
