@@ -3,7 +3,7 @@
   border: 1px solid #ccc;
   background-color: #F4F4F4;
   width: 30%;
-  height: 800px;
+  height: 600px;
   background-color: white;
 }
 
@@ -35,12 +35,15 @@
 .tabcontent {
   float: left;
   width: 70%;
-  height: 800px;
+  height: 600px;
   padding-left: 5%;
   padding-top: 16px;
   background-color: white;
   border: 1px solid #ccc;
+  padding-right: 2%;
 }
+
+
 
 .tabcontent h3 {
 font-family: "Courier New";
