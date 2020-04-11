@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+
+  get 'home', to: "home#index", as: :home
+  resources :home, only: [:index, :new, :create]
+
   root to: 'pages#front'
   get 'contact', to: "pages#contact", as: :contact
   get 'about', to: "pages#about", as: :about
