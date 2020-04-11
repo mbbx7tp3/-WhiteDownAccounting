@@ -11,10 +11,13 @@
     <%#= stylesheet_pack_tag 'application', media: 'all' %> <!-- Uncomment if you import CSS in app/javascript/packs/application.js -->
   </head>
   <body>
+    <div class="page-content">
     <%= yield %>
     <%= javascript_include_tag 'application' %>
 
     <%= javascript_pack_tag 'application' %>
   </body>
-  <%= render 'shared/footer' %>
+    </div>
+    <%= render 'shared/footer' %>
 </html>
+
