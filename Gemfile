@@ -15,6 +15,11 @@ gem 'simple_form'
 gem 'uglifier'
 gem 'webpacker'
 
+gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
+gem 'mail_form'
+gem 'jquery-rails', '~> 4.1', '>= 4.1.1'
+
+
 group :development do
   gem 'web-console', '>= 3.3.0'
 end
