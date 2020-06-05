@@ -1,24 +1,23 @@
-.half-left {
-  padding: 2%;
+.row {
+  padding-top: 2%;
 }
 
-.half-left img {
-  width: 400px;
-  height: 480px;
-  border-radius: 2%;
+.column {
+  float: center;
+  width: 50%;
+  text-align: center;
 }
 
-.half-right {
-
+.column img {
+padding-top: 2%;
+ width: 300px;
+ height: 310px;
+ border-radius: 3%;
 }
 
-.about {
-display: grid;
-grid-template-columns: 1fr 1fr;
-margin-top: 5%;
-}
-
-.about-title h2 {
-font-family: "Courier New";
-text-align: center;
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }

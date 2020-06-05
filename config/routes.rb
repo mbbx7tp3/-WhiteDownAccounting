@@ -4,7 +4,6 @@ Rails.application.routes.draw do
   resources :home, only: [:index, :new, :create]
 
   root to: 'pages#front'
-  get 'contact', to: "pages#contact", as: :contact
   get 'about', to: "pages#about", as: :about
   get 'services', to: "pages#services", as: :services
   get 'disclaimer', to: "pages#disclaimer", as: :disclaimer
