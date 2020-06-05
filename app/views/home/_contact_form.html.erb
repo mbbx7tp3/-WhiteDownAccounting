@@ -1,18 +1,26 @@
 <%= form_for @contact, url: home_index_path, remote: true do |f| %>
-    <div class="col-md-6">
-        <%= f.label :name %></br>
-        <%= f.text_field  :name, required: true, class: "contact-form-text-area" %></br>
 
-        <%= f.label :email %></br>
-        <%= f.text_field :email, required: true, class: "contact-form-text-area" %></br>
+      <div class="col-md-6">
+          <%= f.label :name %></br>
+          <%= f.text_field  :name, required: true, class: "contact-form-text-area" %></br>
 
-      <%= f.label :message %></br>
-      <%= f.text_area :message, rows: 8, cols: 40, required: true, class: "contact-form-text-area",
-                        placeholder: "Send me a message"%></br>
+          <%= f.label :email %></br>
+          <%= f.text_field :email, required: true, class: "contact-form-text-area" %></br>
 
-      <%= f.submit 'Send Message', class: 'btn btn-primary' %>
-    </div>
+        <%= f.label :message %></br>
+        <%= f.text_area :message, rows: 6, cols: 40, required: true, class: "contact-form-text-area",
+                          placeholder: "We welcome your thoughts"%></br>
+
+        <div style="padding-top: 20px;">
+        <%= f.submit 'Send Message', class: 'btn btn-primary' %>
+        </div>
+
+      </div>
+
   <% end %>
+
   <div class="col-md-6" id="flash-message">
     <%= render 'flash' %>
   </div>
+
+
